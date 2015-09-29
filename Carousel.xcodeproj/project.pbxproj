@@ -14,6 +14,16 @@
 		1487304F1BB2FE900086D405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1487304D1BB2FE900086D405 /* LaunchScreen.storyboard */; };
 		1487305A1BB2FE900086D405 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730591BB2FE900086D405 /* CarouselTests.swift */; };
 		148730651BB2FE900086D405 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730641BB2FE900086D405 /* CarouselUITests.swift */; };
+		148730731BB2FF500086D405 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730721BB2FF500086D405 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		148730751BB300BA0086D405 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730741BB300BA0086D405 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730771BB379410086D405 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730761BB379410086D405 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730791BB3BFE80086D405 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730781BB3BFE80086D405 /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1487307D1BB73FFC0086D405 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487307C1BB73FFC0086D405 /* TimeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1487307F1BB745D60086D405 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487307E1BB745D60086D405 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730811BB746430086D405 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730801BB746430086D405 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730831BB74C7C0086D405 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730821BB74C7C0086D405 /* CreateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730851BB75F1B0086D405 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730841BB75F1B0086D405 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		148730871BB7ACAD0086D405 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148730861BB7ACAD0086D405 /* GetStartedViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		148730601BB2FE900086D405 /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148730641BB2FE900086D405 /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		148730661BB2FE900086D405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148730721BB2FF500086D405 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		148730741BB300BA0086D405 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		148730761BB379410086D405 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		148730781BB3BFE80086D405 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		1487307C1BB73FFC0086D405 /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		1487307E1BB745D60086D405 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		148730801BB746430086D405 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		148730821BB74C7C0086D405 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		148730841BB75F1B0086D405 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		148730861BB7ACAD0086D405 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,19 @@
 		148730431BB2FE900086D405 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				148730761BB379410086D405 /* SignInViewController.swift */,
 				148730441BB2FE900086D405 /* AppDelegate.swift */,
 				148730461BB2FE900086D405 /* ViewController.swift */,
+				148730721BB2FF500086D405 /* Common.swift */,
 				148730481BB2FE900086D405 /* Main.storyboard */,
+				148730861BB7ACAD0086D405 /* GetStartedViewController.swift */,
+				148730841BB75F1B0086D405 /* TermsViewController.swift */,
+				148730821BB74C7C0086D405 /* CreateViewController.swift */,
+				148730801BB746430086D405 /* SettingsViewController.swift */,
+				1487307E1BB745D60086D405 /* ConversationsViewController.swift */,
+				1487307C1BB73FFC0086D405 /* TimeViewController.swift */,
+				148730781BB3BFE80086D405 /* TutorialViewController.swift */,
+				148730741BB300BA0086D405 /* IntroViewController.swift */,
 				1487304B1BB2FE900086D405 /* Assets.xcassets */,
 				1487304D1BB2FE900086D405 /* LaunchScreen.storyboard */,
 				148730501BB2FE900086D405 /* Info.plist */,
@@ -258,8 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148730851BB75F1B0086D405 /* TermsViewController.swift in Sources */,
+				148730831BB74C7C0086D405 /* CreateViewController.swift in Sources */,
 				148730471BB2FE900086D405 /* ViewController.swift in Sources */,
+				148730871BB7ACAD0086D405 /* GetStartedViewController.swift in Sources */,
+				148730731BB2FF500086D405 /* Common.swift in Sources */,
 				148730451BB2FE900086D405 /* AppDelegate.swift in Sources */,
+				1487307F1BB745D60086D405 /* ConversationsViewController.swift in Sources */,
+				148730771BB379410086D405 /* SignInViewController.swift in Sources */,
+				1487307D1BB73FFC0086D405 /* TimeViewController.swift in Sources */,
+				148730791BB3BFE80086D405 /* TutorialViewController.swift in Sources */,
+				148730751BB300BA0086D405 /* IntroViewController.swift in Sources */,
+				148730811BB746430086D405 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
